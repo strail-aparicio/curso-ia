@@ -1,0 +1,23 @@
+# Entorno de Python
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.pytest_cache/
+.ruff_cache/
+
+# Datos y modelos pesados (se documentan en datos/README.md)
+datos/*
+!datos/README.md
+*.pt
+*.pth
+*.onnx
+*.safetensors
+modelos/
+
+# Secretos (claves de API)
+.env
+
+# Sistema
+.DS_Store
+Thumbs.db
